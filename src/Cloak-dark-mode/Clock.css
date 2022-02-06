@@ -1,0 +1,121 @@
+.calculadora{
+    
+    width: 53vh;
+    height:88%;
+    display: grid;
+    align-items: flex-end;
+    
+}
+.keyboard{
+
+    background: #808B96;
+
+}
+
+
+.col{
+    background: #808B96;
+    border:1px solid #808B96;
+}
+button{
+    width:100%;
+    height:100%;
+}
+
+.form-control{
+    background:#566573;
+    padding:30px 5px;
+    margin-top:60px;
+    font-size:35px;
+    font-weight: 800;
+    color:#eee;
+    border:none;
+    text-align:right;
+    pointer-events: none;
+    padding-right:15px;
+
+    
+}
+.form-control:focus{
+    background:#566573;
+    box-shadow: unset;
+    border:unset;
+    color:#eee;
+}
+
+
+.simbol{
+    background:#808B96;
+    border:none;
+    color:#eee;
+    font-size:25px;
+    font-weight: 400;
+}
+
+.numbers, .equal{
+    background: #566573;
+    border:none;
+    color:#eee;
+    font-size:25px;
+    font-weight: 400;
+}
+
+.equal{
+    background: #58D68D;
+}
+
+
+
+
+
+
+/*mode-dark*/
+.mode-dark{
+    width:50px;
+    height:50px;
+    border-radius: 20rem;
+    background:#808B96;
+}
+.btn-dark-mode{
+    border-radius: 20rem;
+    display:grid;
+    place-items: center;
+    justify-content: center;
+}
+.bxs-moon{
+    font-size:35px;
+    display:none;
+}
+
+.bxs-sun{
+ 
+    font-size:35px;
+    color:#eee;
+
+}
+.moon{
+    display:block;
+}
+.sun{
+    display:none;
+}
+
+
+.Calculadora-Sun{
+    background:none;
+}
+
+
+.input-sun{
+    background: #eee;
+}
+
+
+
+
+
+@media screen and (max-width:375px){
+    .mode-dark{
+        margin-left:20px;
+    }
+}
